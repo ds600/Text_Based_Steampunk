@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de29f985fd48b9b4f856463947f7ed1b, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "Ich bin auf meinem treuen Luftschiff, umgeben von Rauch. Auf meinem
+    Flug zur fliegenden Handelsstadt Festalia, wurde ich von Piraten \xFCberfallen.
+    Nicht einen reibungslosen Flug hatte ich zu dieser verdammten Stadt...\n\nEine
+    Harpune steckt in den Zahnr\xE4dern, die Gl\xFChende Spitze hat einen meiner
+    Treibstoff Tanks getroffen und entz\xFCnded, aber\r\ndas Triebwerk selbst funktioniert.\r\nIch
+    k\xF6nnte mich erstmal um das Feuer k\xFCmmern, oder Versuch die Harpune zu l\xF6sen
+    und so schnell wie m\xF6glich hier weg zu kommen.\r\n\r\nWas soll ich tun?\r\n1.
+    Versuchen die Harpune zu l\xF6sen.\r\n2. Etwas zum l\xF6schen des Feuers organisieren."
+  nextStates:
+  - {fileID: 11400000, guid: 1f62336bb3d8e734a8e70f39abce1b9f, type: 2}
+  - {fileID: 11400000, guid: bef7efd4c487bac469f7bedb9610ab3f, type: 2}
+  requiresDiceRoll: 0
+  requiredAction: 

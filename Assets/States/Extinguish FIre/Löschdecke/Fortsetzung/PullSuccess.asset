@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de29f985fd48b9b4f856463947f7ed1b, type: 3}
+  m_Name: PullSuccess
+  m_EditorClassIdentifier: 
+  storyText: 
+  nextStates: []
+  requiresDiceRoll: 0
+  requiredAction: 
+  rollGoal: 0
+  stateOnSuccess: {fileID: 0}
+  stateOnFailure: {fileID: 0}
+  isAttack: 0
+  isFreeAttack: 0
+  hasAdvantage: 0
+  hasDisadvantage: 0
+  diceBonus: 0
+  attackDamage: 0
+  statBonusDex: 0
+  statBonusStr: 0
+  statBonusInt: 0
+  statBonusLuck: 0
+  loadStateOnKill: {fileID: 0}
+  loadStateAfterFreeStrike: {fileID: 0}
